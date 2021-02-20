@@ -1,0 +1,88 @@
+iwmap 4
+// entity 0
+{
+guid "{7AF509D3-FE09-11EA-80BE-207918E6A9CA}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+// brush 0
+{
+ guid "{31AAEADB-FDF2-11EA-80BE-207918E6A9CA}"
+ ( 640 0 0 ) ( 624 0 0 ) ( 624 -16 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 624 -16 32 ) ( 624 0 32 ) ( 640 0 32 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 624 -16 64 ) ( 640 -16 64 ) ( 640 -16 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 -16 64 ) ( 640 0 64 ) ( 640 0 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 0 64 ) ( 624 0 64 ) ( 624 0 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 624 0 64 ) ( 624 -16 64 ) ( 624 -16 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+// entity 2
+// entity 3
+// entity 4
+// entity 5
+// entity 6
+// entity 7
+// entity 8
+// entity 9
+// entity 10
+// entity 11
+// entity 12
+// entity 13
+// entity 14
+// entity 15
+// entity 16
+// entity 17
+// entity 18
+// entity 19
+// entity 20
+// entity 21
+// entity 22
+// entity 23
+// entity 24
+// entity 25
+// entity 26
+// entity 27
+// entity 28
+// entity 29
+// entity 30
+// entity 31
+// entity 32
+// entity 33
+// entity 34
+// entity 35
+// entity 36
+{
+guid "{55941128-FDF2-11EA-80BE-207918E6A9CA}"
+"classname" "script_model"
+"angles" "0 0 -4.09812e-005"
+"model" "p7_playing_cards_single_ad"
+"origin" "632 -8 32.25"
+"script_int" "0"
+"targetname" "punch_card0"
+}
+// entity 37
+// entity 38
+// entity 39
+{
+guid "{BE14D79E-FDF3-11EA-80BE-207918E6A9CA}"
+"classname" "trigger_use"
+"target" "punch_card0"
+"targetname" "punch_card_trig"
+// brush 0
+{
+ guid "{BE14D79D-FDF3-11EA-80BE-207918E6A9CA}"
+ ( 640 0 32 ) ( 636 0 32 ) ( 636 -4 32 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 636 -4 36 ) ( 636 0 36 ) ( 640 0 36 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 632 -16 36 ) ( 636 -16 36 ) ( 636 -16 28 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 -4 36 ) ( 640 0 36 ) ( 640 0 28 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 0 36 ) ( 636 0 36 ) ( 636 0 28 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 624 0 36 ) ( 624 -4 36 ) ( 624 -4 28 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 40
+// entity 41
+// entity 42

@@ -1,0 +1,95 @@
+iwmap 4
+// entity 0
+{
+guid "{96DE5989-FE09-11EA-80BE-207918E6A9CA}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+// brush 0
+{
+ guid "{0D5A3771-FDF2-11EA-80BE-207918E6A9CA}"
+ ( 752 0 0 ) ( 704 0 0 ) ( 704 -24 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 688 -24 64 ) ( 688 0 64 ) ( 736 0 64 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 704 -24 8 ) ( 752 -24 8 ) ( 752 -24 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 752 -24 8 ) ( 752 0 8 ) ( 752 0 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 752 0 8 ) ( 704 0 8 ) ( 704 0 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 704 0 8 ) ( 704 -24 8 ) ( 704 -24 0 ) script_floor_ceiling 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+// entity 2
+// entity 3
+// entity 4
+// entity 5
+// entity 6
+// entity 7
+// entity 8
+// entity 9
+// entity 10
+// entity 11
+// entity 12
+// entity 13
+// entity 14
+// entity 15
+// entity 16
+// entity 17
+// entity 18
+// entity 19
+// entity 20
+// entity 21
+// entity 22
+// entity 23
+// entity 24
+// entity 25
+// entity 26
+// entity 27
+// entity 28
+// entity 29
+// entity 30
+// entity 31
+// entity 32
+// entity 33
+// entity 34
+// entity 35
+// entity 36
+// entity 37
+// entity 38
+{
+guid "{02B2EE7E-FDF4-11EA-80BE-207918E6A9CA}"
+"classname" "trigger_use"
+"targetname" "punch_machine_trig"
+// brush 0
+{
+ guid "{02B2EE7D-FDF4-11EA-80BE-207918E6A9CA}"
+ ( 724 4 16 ) ( 720 4 16 ) ( 720 0 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 720 0 44 ) ( 720 4 44 ) ( 724 4 44 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 720 0 36 ) ( 724 0 36 ) ( 724 0 32 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 740 0 36 ) ( 740 4 36 ) ( 740 4 32 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 724 4 36 ) ( 720 4 36 ) ( 720 4 32 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 720 4 36 ) ( 720 0 36 ) ( 720 0 32 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 39
+{
+guid "{1A052F0A-FE01-11EA-80BE-207918E6A9CA}"
+"classname" "script_struct"
+"_color" "0 0.9647 1"
+"angles" "0 270 0"
+"origin" "712 2 36"
+"script_string" "start"
+"targetname" "punch_machine_struct"
+}
+// entity 40
+{
+guid "{3ED2F921-FE01-11EA-80BE-207918E6A9CA}"
+"classname" "script_struct"
+"_color" "0 1 0.07066"
+"angles" "0 270 0"
+"origin" "712 -2 36"
+"script_string" "end"
+"targetname" "punch_machine_struct"
+}
+// entity 41
