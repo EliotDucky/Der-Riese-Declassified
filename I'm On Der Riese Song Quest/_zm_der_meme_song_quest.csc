@@ -30,7 +30,7 @@ function register_clientfields(){
 	clientfield::register("scriptmover", "zm_der_meme_song_soul_fx", VERSION_DLC1, 1, "int", &playSoulFX, 0, 0);
 }
 
-//Call On: dead zombie or revised: empty model to move
+//Call On: empty model to move
 function playSoulFX(localClientNum, oldVal, newVal, bNewEnt, bInitialSnap, fieldName, bWasTimeJump){
 	if(newVal == 1){
 		self.soul_fx = PlayFXOnTag(localClientNum, level._effect["enemy_soul"], self, "tag_origin");
